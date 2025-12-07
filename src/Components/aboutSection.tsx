@@ -53,7 +53,7 @@ const AboutSection = () => {
   return (
     <section ref={sectionRef} id="about" className=" about-section">
       <div className="container">
-        <div className="content" ref={contentRef}>
+        <div className="content order-2 md:order-1" ref={contentRef}>
           <div className="section-header">
             <h2>À propos de moi</h2>
             <div className="underline"></div>
@@ -61,12 +61,11 @@ const AboutSection = () => {
 
           <div className="about-content">
             <p className="lead">
-              Développeur web & mobile passionné, je transforme vos idées en solutions digitales performantes et évolutives.
+              Développeur  & Digital Marketer passionné, je transforme vos idées en solutions digitales performantes et évolutives.
             </p>
             
             <p className="description">
-              Avec plus de 3 ans d'expérience dans le développement web et mobile, je m'engage à créer des solutions sur mesure qui répondent parfaitement aux besoins de vos utilisateurs. Mon expertise en JavaScript et C# me permet de concevoir des applications robustes, évolutives et maintenables.
-            </p>
+              Avec plus de 3 ans d'expérience dans le développement web et mobile , je m'engage à créer des solutions sur mesure qui répondent parfaitement aux besoins de votre entreprise. Mon expertise en développement et Marketing me permet de concevoir des plateformes et stratégies digitales éfficaces pour atteindre vos objectifs commerciaux.</p>
 
             <div className="expertise" id='contact'>
               <h3>Mon expertise</h3>
@@ -75,6 +74,7 @@ const AboutSection = () => {
                 <li>Création d'applications mobiles performantes</li>
                 <li>Conception d'architectures évolutives</li>
                 <li>Optimisation des performances et de l'expérience utilisateur</li>
+                <li>Marketing digital</li>
               </ul>
             </div>
 
@@ -158,7 +158,7 @@ const AboutSection = () => {
           </div>
         </div>
 
-        <div className="image-container" ref={imageRef}>
+        <div className="image-container order-1 md:order-2 mb-14 md:mb-0" ref={imageRef}>
           <div className="image-wrapper">
             <img
               src={photo_dimi}
@@ -172,9 +172,9 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <div className='fixed bg-green-600 text-white w-14 h-14 rounded-full top-[70%] md:top-[80%] right-5 animate-spin annimate-infite z-50 flex justify-center items-center  text-2xl cursor-pointer hover:scale-105'>
+      <a href="https://wa.me/237674606328?text=Salut , Je souhaite discuter sur mon projet avec vous .Et-vous disponible ?" className='fixed bg-green-600 text-white w-14 h-14 rounded-full top-[70%] md:top-[80%] right-5 animate-spin annimate-infite z-50 flex justify-center items-center  text-2xl cursor-pointer hover:scale-105'>
          <FaWhatsapp />
-      </div>
+      </a>
     </section>
   );
 };
