@@ -4,7 +4,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FaFacebookF, FaWhatsapp, FaPaperPlane, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 // import photo_dimi from '../assets/photo_acceuil.png';
 // import photo_dimi from '../assets/profil_dimidev_new.png';
-import photo_dimi from '../assets/new_profil.png';
+// import photo_dimi from '../assets/new_profil.png';
+import photo_dimi from '../assets/about_img.jpg';
 import './Style/aboutSection.scss';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -64,7 +65,7 @@ const AboutSection = () => {
             </p>
             
             <p className="description">
-              Avec plus de 4 ans d'expérience dans le développement web et mobile, je m'engage à créer des solutions sur mesure qui répondent parfaitement aux besoins de vos utilisateurs. Mon expertise en JavaScript et C# me permet de concevoir des applications robustes, évolutives et maintenables.
+              Avec plus de 3 ans d'expérience dans le développement web et mobile, je m'engage à créer des solutions sur mesure qui répondent parfaitement aux besoins de vos utilisateurs. Mon expertise en JavaScript et C# me permet de concevoir des applications robustes, évolutives et maintenables.
             </p>
 
             <div className="expertise" id='contact'>
@@ -81,7 +82,7 @@ const AboutSection = () => {
               <div className="info-grid">
                 <div className="info-item">
                   <span className="label">Email</span>
-                  <a href="mailto:dimitribonsou26@gmail.com" className="value">
+                  <a href="mailto:dimidev26@gmail.com" className="value">
                     dimidev26@gmail.com
                   </a>
                 </div>
@@ -91,10 +92,10 @@ const AboutSection = () => {
                     +237 674 60 63 28
                   </a>
                 </div>
-                <div className="info-item">
+                {/* <div className="info-item">
                   <span className="label">Localisation</span>
                   <span className="value">Douala, Cameroun</span>
-                </div>
+                </div> */}
                 <div className="info-item">
                   <span className="label">Disponibilité</span>
                   <span className="value">Immédiate</span>
@@ -122,7 +123,7 @@ const AboutSection = () => {
                 <FaFacebookF />
               </a>
               <a
-                href="https://wa.me/674606328"
+                href="https://wa.me/237674606328?text=Salut , Je souhaite discuter sur mon projet avec vous .Et-vous disponible ?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -131,7 +132,7 @@ const AboutSection = () => {
                 <FaWhatsapp />
               </a>
               <a
-                href="mailto:dimitribonsou26@gmail.com"
+                href="mailto:dimidev26@gmail.com"
                 className="social-link"
                 aria-label="Email"
               >
@@ -148,8 +149,8 @@ const AboutSection = () => {
                 Télécharger mon CV
               </a> */}
               <a
-                href="#contact"
-                className="btn btn-secondary"
+                href="https://wa.me/237674606328?text=Salut , Je souhaite discuter sur mon projet avec vous .Et-vous disponible ?"
+                className="btn btn-secondary  hover:text-white"
               >
                 Discutons de votre projet
               </a>
@@ -161,15 +162,18 @@ const AboutSection = () => {
           <div className="image-wrapper">
             <img
               src={photo_dimi}
-              alt="Dimitri Bonsou - Développeur Web & Mobile"
+              alt="Dimidev - Développeur Web & Mobile"
               className="profile-image"
             />
             <div className="experience-badge">
-              <span className="years">4+</span>
-              <span className="text">Années d'expérience</span>
+              <span className="years text-white">3+</span>
+              <span className="text text-white">Années d'expérience</span>
             </div>
           </div>
         </div>
+      </div>
+      <div className='fixed bg-green-600 text-white w-14 h-14 rounded-full top-[70%] md:top-[80%] right-5 animate-spin annimate-infite z-50 flex justify-center items-center  text-2xl cursor-pointer hover:scale-105'>
+         <FaWhatsapp />
       </div>
     </section>
   );

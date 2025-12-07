@@ -23,7 +23,7 @@ const services = [
     icon: <FaMobile />,
     title: 'Applications Mobiles',
      message:"Je souhaite en savoir plus sur votre service Applications Mobiles ",
-    description: 'Développement d\'applications mobiles natives et cross-platform pour iOS et Android.',
+    description: 'Développement d\'applications mobiles  cross-platform pour iOS et Android.',
     features: [
       'Applications natives',
       'Applications hybrides',
@@ -114,7 +114,7 @@ const ServiceSection = () => {
     <section ref={sectionRef} id="services" className="service-section">
       <div className="container">
         <div className="section-header">
-          <h2>Mes Services</h2>
+          <h2 className='text-white'>Mes Services</h2>
           <div className="underline"></div>
         </div>
 

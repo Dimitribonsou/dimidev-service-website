@@ -144,12 +144,16 @@ const CompetenceSection = () => {
                   <div key={tech.name} className="skill-item">
                     <div className="skill-info">
                       <span className="skill-name">{tech.name}</span>
-                      <span className="skill-level">{tech.level}%</span>
+                      {/* <span className="skill-level">{tech.level}%</span> */}
                     </div>
                     <div className="skill-bar">
-                      <div
+                      {/* <div
                         className="skill-progress"
                         style={{ width: `${tech.level}%` }}
+                      /> */}
+                      <div
+                        className="skill-progress"
+                        style={{ width: `100%` }}
                       />
                     </div>
                   </div>

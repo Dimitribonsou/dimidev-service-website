@@ -8,7 +8,8 @@
   --text-primary: #ffffff;
   --text-secondary: #a0a0a0;
   // --accent-primary: #3b82f6;
-  --accent-secondary: #10b981;
+  // --accent-secondary: #10b981;
+  --accent-secondary: #0f9452;
   --border-color: #2a2a2a;
   
   // Espacement
@@ -16,7 +17,7 @@
   --spacing-sm: 1rem;
   --spacing-md: 2rem;
   --spacing-lg: 4rem;
-  --spacing-xl: 8rem;
+  --spacing-xl: 6rem;
   
   // Typographie
   --font-primary: 'Inter', sans-serif;
@@ -90,7 +91,7 @@ section {
   
   &-primary {
     background-color: var(--accent-primary);
-    color:#000;
+    color:#fff;
     
     &:hover {
       background-color: var(--accent-primary-dark);
@@ -105,7 +106,7 @@ section {
     
     &:hover {
       background-color: var(--accent-primary);
-      color:#000;
+      color:#fff;
     }
   }
 }
