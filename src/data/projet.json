@@ -47,15 +47,6 @@
     "technologies": ["React", "API REST", "Axios", "CSS Modules"],
     "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
     "category": "finance"
-  }
-  ,
-  {
-    "title": "Site web de présentation d'appartement et chambre pour un particulier",
-    "lien": "https://dimidev-appartement-chambre.vercel.app/",
-    "description": "Plateforme de mise en relation pour la location d'appartements et chambres.",
-    "technologies": ["React", "Tailwind CSS", "Material-UI"],
-    "image": "https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "category": "site web"
   },
   {
     "title": "Site web Restaurant Burger Express",
@@ -83,7 +74,7 @@
   },
   {
     "title": "Prototype plateforme de collecte des informations des etudiants AlumniDocs",
-    "lien": "https://plus.unsplash.com/premium_photo-1681248156494-b72275ff6b51?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "lien": "https://www.figma.com/proto/tQcjTEAwW5BCD11hvQQNV8/Design-AlumniDocs?node-id=63-61&starting-point-node-id=63%3A61",
     "description":"Prototype plateforme de collecte des informations des etudiants AlumniDocs",
     "technologies": ["Figma", "UI/UX Design", "Prototypage"],
     "image": "https://plus.unsplash.com/premium_photo-1661574784307-3bc01586ccc8?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -161,14 +152,6 @@
     "technologies": ["CSS3", "HTML5", "SCSS", "GSAP"],
     "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
     "category": "site web"
-  },
-  {
-    "title": "Application de génération de carte Pour personnel ou etudiant",
-    "lien": "#",
-    "description": "Application web permettant de générer des cartes d'identité personnalisées.",
-    "technologies": ["PHP","CSS3", "HTML5"],
-    "image": "https://media.istockphoto.com/id/1407324683/photo/traffic-control-on-street.jpg?s=1024x1024&w=is&k=20&c=9kXAC1oWK2S1PVooazbLm-8e8BCD1asJ8elUq_WFG-I=",
-    "category": "services"
   }
 ]
 

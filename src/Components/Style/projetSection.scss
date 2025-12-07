@@ -29,7 +29,7 @@
     h2 {
       font-size: 2.5rem;
       font-weight: 700;
-      color: #1a1a1a;
+      color: #fff;
       margin-bottom: 1rem;
     }
 
@@ -46,7 +46,7 @@
     text-align: center;
     max-width: 600px;
     margin: 0 auto 4rem;
-    color: #666;
+    color: #fff;
     font-size: 1.1rem;
     line-height: 1.6;
   }
@@ -74,15 +74,15 @@
         font-size: 0.9rem;
         
         &:hover {
-          border-color: #00ff00;
-          color: #00ff00;
+          border-color: #0f9452;
+          color: #0f9452;
           transform: translateY(-2px);
         }
         
         &.active {
-          background: #00ff00;
-          border-color: #00ff00;
-          color: #1a1a1a;
+          background: #0f9452;
+          border-color: #0f9452;
+          color: #fff;
           box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
         }
       }
@@ -138,13 +138,13 @@
           display: flex;
           align-items: center;
           gap: 0.5rem;
-          color: #00ff00;
+          color: #0f9452;
           text-decoration: none;
           font-weight: 500;
           transition: color 0.3s ease;
 
           &:hover {
-            color: #00cc00;
+            color: #0f9452;
           }
 
           svg {
@@ -211,8 +211,8 @@
     .cta-button {
       display: inline-block;
       padding: 1rem 2rem;
-      background-color: #00ff00;
-      color: #1a1a1a;
+      background-color: #0f9452;
+      color: #fff;
       text-decoration: none;
       border-radius: 30px;
       font-weight: 600;
@@ -220,7 +220,7 @@
       box-shadow: 0 4px 6px rgba(0, 255, 0, 0.2);
 
       &:hover {
-        background-color: #00cc00;
+        background-color: #0f9452;
         transform: translateY(-2px);
         box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3);
       }

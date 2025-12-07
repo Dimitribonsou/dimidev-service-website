@@ -34,12 +34,12 @@
     z-index: 1;
   }
 
-  .content {
-    max-width: 800px;
-  }
+  // .content {
+  //   max-width: 800px;
+  // }
 
   .title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.8rem, 3.3vw, 4rem);
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: var(--spacing-md);

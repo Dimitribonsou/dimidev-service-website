@@ -71,7 +71,7 @@ const ProjetSection = () => {
     <section ref={sectionRef} id="projets" className="projet-section">
       <div className="container">
         <div className="section-header">
-          <h2>Mes Réalisations</h2>
+          <h2 className='text-white'>Mes Réalisations</h2>
           <div className="underline"></div>
         </div>
 
