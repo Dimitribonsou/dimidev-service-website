@@ -39,7 +39,7 @@ const HomeSection = () => {
     <section ref={sectionRef} id="home" className="home-section">
       <div className="container">
         <div className="content">
-          <div className='w-full h-[70vh]  flex justify-between items-center flex-wrap gap-5 p-0 '>
+          <div className='w-full md:h-[70vh]  flex justify-between items-center flex-wrap gap-5 p-0 mb-5'>
             <div className='w-full md:w-[55%] '>
                 <h1 ref={textRef} className="title ">
                   Je conçois des stratégies et plateformes sur‑mesure pour booster vos résultats
@@ -56,9 +56,9 @@ const HomeSection = () => {
                   </a>
                 </div>
             </div>
-            <div className=' relative w-full md:w-[40%] h-[350px]  min-w-36'>
+            <div className=' relative w-full md:w-[40%] md:h-[350px]  min-w-36'>
               <a href="#projets">
-                <img src={project_image} alt="" className='w-full  h-full min-h-16 cursor-pointer' />
+                <img src={project_image} alt="" className='w-full  h-full min-h-24 cursor-pointer' />
                 <div className=' nowrap absolute bg-green-600 text-white top-1/2 right-12 md:right-1/3 translate-x-1/2 translate-y-1/2 p-2 shadow-2xl shadow-slate-300 rounded-sm cursor-pointer animate-bounce md:animate-bounce  animate-infinite animate-ease-in-out animate-duration-[80s] animate-delay-[2s]'>
                   <span className='w-fit'>Voir mes projets récents cliquez ici </span>
                 </div>

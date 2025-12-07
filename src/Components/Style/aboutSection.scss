@@ -150,6 +150,7 @@
 
   .image-container {
     position: relative;
+
     .image-wrapper {
       // position: relative;
       width: 100%;
@@ -202,3 +203,8 @@
     }
   }
 } 
+     @media screen and (max-width:800px){
+      .image-container{
+       transform: translateX(0px) !important;
+      }
+     }
